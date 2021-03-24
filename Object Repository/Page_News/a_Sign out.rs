@@ -6,6 +6,10 @@
    <elementGuidId>72c47e38-801c-4b59-bac0-b436bdc09741</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'top_logout_link']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#top_logout_link</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//a[@id='top_logout_link']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <value>top_logout_link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <value>if (checkEvent(event) === false) { window.AudioPlayer &amp;&amp; AudioPlayer.clearAllCacheKeys(); window.Notifier &amp;&amp; Notifier.lcSend('logged_off'); location.href = this.href; return cancelEvent(event); }</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

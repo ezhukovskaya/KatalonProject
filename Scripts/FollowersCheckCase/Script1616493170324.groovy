@@ -8,5 +8,5 @@ response = WS.sendRequest(findTestObject('User/Get Followers', [('variable') : '
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'response.count', 39988)
+WS.verifyElementPropertyValue(response, 'response.count', 39989)
 
